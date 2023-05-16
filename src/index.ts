@@ -1,11 +1,11 @@
-import "module-alias/register";
+import "module-alias/register.js";
 import Koa from "koa";
-import dotenv from "dotenv";
+import * as dotenv from "dotenv";
 
 dotenv.config();
 
-import middleware from "./middlewares";
-import route from "./routes";
+import middleware from "./middlewares/index.js";
+import route from "./routes/index.js";
 
 const app = new Koa();
 middleware(app);

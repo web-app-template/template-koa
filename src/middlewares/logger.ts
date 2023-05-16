@@ -1,4 +1,4 @@
-import type { App } from "./types";
+import type { App } from "./types.js";
 
 export default function initLogger(app: App): void {
   // logger
