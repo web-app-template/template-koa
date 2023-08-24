@@ -5,9 +5,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev:build": "tsc --project tsconfig.development.json --watch",
-    "dev:serve": "cross-env NODE_ENV=development nodemon --watch dist dist/index.js",
-    "prd:build": "tsc",
+    "build": "tsc",
+    "build:dev": "tsc --project tsconfig.development.json --watch",
+    "serve:dev": "cross-env NODE_ENV=development nodemon --watch dist dist/index.js",
     "commit": "cz",
     "lint": "eslint",
     "test": "jest"
