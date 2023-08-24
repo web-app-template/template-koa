@@ -5,7 +5,7 @@ import logger from "./logger.js";
 import jsonError from "./jsonError.js";
 
 /**
- * 注册 middleware
+ * Register middleware
  * @param app
  */
 export default function middleware(app: App): void {
