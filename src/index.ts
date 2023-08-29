@@ -1,4 +1,3 @@
-import "module-alias/register.js";
 import Koa from "koa";
 import * as dotenv from "dotenv";
 

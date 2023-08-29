@@ -7,6 +7,4 @@
     "tsBuildInfoFile": "./dist/.tsbuildinfo" /* Specify file to store incremental compilation information */,
     "diagnostics": true
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "test"]
 }
